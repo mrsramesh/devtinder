@@ -24,3 +24,4 @@ git init
 git add.(save the changes)
 git commit -a -m "message" 
 add remote. (push the data on the hub).
+git push origin mater_userdeifine
