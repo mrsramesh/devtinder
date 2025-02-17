@@ -21,4 +21,9 @@ day - 02
 -*Order of the routes matter a lot 
 -Install Postman app and make a workspace/collection  > test  api call
 
-write logic to handle get,post ,delete apis calls and test them on the postman
+-write logic to handle get,post ,delete apis calls and test them on the postman
+explore routing and use ?,+,*,(),in the routes
+use of regex in the routing /a/,/*fly$/, create own 
+-Reading the uery params in the routes
+-reading the dynamic routes 
+

@@ -49,9 +49,24 @@ app.use(/path) isme problem yi hai ki yi get and post dono request ki liyi call 
 
 make the .get(),post(),delete() api calls on the same path work wall . if we add the use() api call on the same path and palce at the top then he handddle all the api call and below apis noot work on the same path . because ordre is matter. 
 
+Advance Routing Technique (like regular expression )
+-1-ab+c > abbb(n)..c
+-2-ab?c= b is optional here..
+-3-ab*cd = ab..anything ..cd work it
+-4- a(bc)?d = bc is optional {ad}  
+-5- /a/ => if in the path string a comes then it's works.(regids)
+-6- /*fly$/ => start anything and end with fly then it works .
 
+
+
+
+read about the quary parmes "res.query". query paramas using ?(start)
+use it [? id=value&&id1=value] 
+res.params=> /user(path)/data1/data2/data3/..
+on this api's /user/:uid/:uname/:upass/:... 
+this data show in the temetal using "req.params" 
 {
-    
+    chat gpt notes of day1 and day 2
 }Day 01: Setting Up the Project
 1. Initializing the Project
 Run npm init to create a package.json file.
