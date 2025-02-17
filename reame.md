@@ -176,3 +176,12 @@ Summary of Key Learnings
 ~ → Auto-updates only patch versions.
 ✅ Use Nodemon for automatic server restarts during development.
 ✅ Push package-lock.json to Git, but ignore node_modules/.
+
+
+Day 03 controller and middlerware 
+***most imp
+app.use("/path",rh1,rh2,rh3,...)
+or app.use("/path",[rh1,rh2,rh3,...])
+or app.use("/path",[rh1,rh2],rh3,...) all work same way 
+alert about the next and send function 
+thay work of any http method 
